@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 900px;
+    height: 500px;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -450px;
+}
+
+/* start welcome */
+.container .welcome {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-color: lightcoral;
+}
+
+.container .welcome .login-to {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+    margin: 162px auto 0px auto;
+}
+
+.container .welcome .login-to p {
+    margin: 20px 0px;
+    color: white;
+}
+
+.container .welcome .login-to h2 {
+    color: white;
+}
+
+.container .welcome .login-to button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.container .welcome .login-to button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* end welcome */
+
+
+/* start login */
+.container .login {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container .login .title-social {
+    margin: 40px;
+}
+
+.container .login .title-social h3 {
+    float: left;
+}
+
+.container .login .title-social ul {
+    float: right;
+    list-style: none;
+}
+
+.container .login .title-social ul li {
+    float: left;
+    margin: 0px 5px;
+}
+
+.container .login .title-social ul li i:hover {
+    color: lightcoral;
+}
+
+.container .login .sub-form {
+    width: 250px;
+    margin: 40px;
+
+}
+
+.container .login .sub-form input {
+    width: 350px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    background-color: lightgrey;
+}
+
+.container .login .sub-form input[type="submit"] {
+    width: 358px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    background-color: lightgrey;
+}
+
+.container .login .sub-form input[type="submit"]:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.container .login .sub-form h4 {
+    text-transform: uppercase;
+}
+
+
+.container .login .remember-me {
+    margin: 40px;
+}
+
+.container .login .remember-me .checkbox {
+    float: left;
+}
+
+.container .login .remember-me p {
+    float: right;
+}
+
+/* end login */
